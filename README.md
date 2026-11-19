@@ -3,15 +3,17 @@ Password Recovery with John the Ripper (JTR) and NetworkWalks Free Tools is a ha
 
 
 
-Password Cracking - Project Modules 1 & 2
+Password Cracking - Project Modules PM1 & PM2
 
 
 
 ## Objective
 Recover the password of a protected PDF file `My Locked PDF1.pdf` using two different methods, 
 - John the Ripper + Johnny GUI 
-- NetworkWalks Hash Calculator + NetworkWalks Password Cracker
+- NetworkWalks Hash Calculator + NetworkWalks Password Cracker.
+
 to understand how password cracking works and why strong passwords matter.
+
 
 ## Target File
 - File: `My Locked PDF1.pdf`
@@ -27,6 +29,9 @@ to understand how password cracking works and why strong passwords matter.
 3. Saved the hash as `hash1.txt`
 4. Opened `hash1.txt` in Johnny and started a new attack
 5. Recovered the password and used it to open the PDF
+
+![](WK3PM1&PM2.mp4)
+
 
 **Result:**
 - Hash File: `hash1.txt`
