@@ -38,8 +38,6 @@ to understand how password cracking works and why strong passwords matter.
  - Hash Exractor: https://www.onlinehashcrack.com/tools-pdf-hash-extractor.php
  - Hash Exrator Alternative: https://www.hashextractor.com/en#main-content
 
-# prove
-![](WK3PM1&PM2.mp4)
 
 
 **Result:**
