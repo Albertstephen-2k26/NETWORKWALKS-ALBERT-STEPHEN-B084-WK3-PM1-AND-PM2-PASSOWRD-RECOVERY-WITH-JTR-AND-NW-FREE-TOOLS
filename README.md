@@ -9,7 +9,8 @@ Password Cracking - Project Modules PM1 & PM2
 
 ## Objective
 Recover the password of a protected PDF file `My Locked PDF1.pdf` using two different methods, 
-- John the Ripper + Johnny GUI 
+- John the Ripper + Johnny GUI
+
 - NetworkWalks Hash Calculator + NetworkWalks Password Cracker.
 
 to understand how password cracking works and why strong passwords matter.
@@ -29,7 +30,14 @@ to understand how password cracking works and why strong passwords matter.
 3. Saved the hash as `hash1.txt`
 4. Opened `hash1.txt` in Johnny and started a new attack
 5. Recovered the password and used it to open the PDF
+  
+  ## LINKS TO THE TOOLS
+ - John Ripper: https://www.openwall.com/john/
+ - Johnny GUI: https://openwall.info/wiki/john/johnny
+ - Hash Exractor: https://www.onlinehashcrack.com/tools-pdf-hash-extractor.php
+ - Hash Exrator Alternative: https://www.hashextractor.com/en#main-content
 
+# prove
 ![](WK3PM1&PM2.mp4)
 
 
@@ -37,6 +45,9 @@ to understand how password cracking works and why strong passwords matter.
 - Hash File: `hash1.txt`
 - Cracked Password: `password1`
 - Status: PDF successfully opened
+# prove
+
+![](pdf-password3.png)
 
 ## Method 2: Project Module 2 - NetworkWalks Tools (No Install)
 
@@ -55,10 +66,15 @@ You cannot reverse it directly, you have to try passwords until one matches the 
 6. Started the attack and waited
 7. Got the cracked password and opened the PDF
 
+![](PASSWORKNETWORKWALKS.mp4)
+
 **Result:**
 - Hash: `$pdf$...` [from Hash Calculator]
 - Cracked Password: `password1`
 - Status: PDF successfully opened
+
+![](password1netword.png)
+
 
 
 ## Key Learning
@@ -70,8 +86,19 @@ Always use long, strong, unique passwords.
 - `hash1.txt` - Hash from PM1
 - `My Locked PDF1.pdf`
 - `My Locked PDF2.pdf`
-- `My Locked PDF3.pdf` - Locked PDF file
-- Screenshots - Hash Calculator, Password Cracker, Johnny cracked password, Opened PDF
+- `My Locked PDF3.pdf` 
+- Locked PDF file
+- Screenshots 
+- Hash Calculator, Password Cracker, Johnny cracked password, Opened PDF
+
+## Overall Results Status
+
+- `PDF1` cracked ✅ Password =`good-luck`
+- `PDF2` cracked ✅ Password =`password1`
+- `PDF3` cracked ✅ Password =`1qaz2wsx`
+
+![](pdf-password-2.png)
+
 
 ## Skills
 Password Cracking, Hashing, John the Ripper, Johnny GUI, Hash Calculator, Ethical Hacking Documentation
